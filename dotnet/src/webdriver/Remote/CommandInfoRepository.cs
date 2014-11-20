@@ -210,6 +210,10 @@ namespace OpenQA.Selenium.Remote
             this.commandDictionary.Add(DriverCommand.TouchFlick, new CommandInfo(CommandInfo.PostCommand, "/session/{sessionId}/touch/flick"));
 
             this.commandDictionary.Add(DriverCommand.UploadFile, new CommandInfo(CommandInfo.PostCommand, "/session/{sessionId}/file"));
+
+            // Log
+            this.commandDictionary.Add(DriverCommand.GetLogTypes, new CommandInfo(CommandInfo.GetCommand, "/session/{sessionId}/log/types"));
+            this.commandDictionary.Add(DriverCommand.GetLog, new CommandInfo(CommandInfo.PostCommand, "/session/{sessionId}/log"));
         }
         #endregion
     }

@@ -907,6 +907,12 @@ namespace OpenQA.Selenium.Support.Events
             }
 
             #endregion
+
+
+            public ILog Logs
+            {
+                get { throw new NotImplementedException(); }
+            }
         }
 
         /// <summary>

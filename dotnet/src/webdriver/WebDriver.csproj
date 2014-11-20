@@ -91,6 +91,7 @@
     <Compile Include="IE\InternetExplorerDriverEngine.cs" />
     <Compile Include="IFileDetector.cs" />
     <Compile Include="IHasTouchScreen.cs" />
+    <Compile Include="ILog.cs" />
     <Compile Include="Interactions\ScreenMoveAction.cs" />
     <Compile Include="Interactions\ScreenReleaseAction.cs" />
     <Compile Include="Interactions\ScreenPressAction.cs" />
@@ -102,6 +103,7 @@
     <Compile Include="Interactions\SingleTapAction.cs" />
     <Compile Include="Interactions\TouchActions.cs" />
     <Compile Include="ITouchScreen.cs" />
+    <Compile Include="LogEntry.cs" />
     <Compile Include="PhantomJS\CommandLineArgumentNameAttribute.cs" />
     <Compile Include="PhantomJS\PhantomJSDriver.cs" />
     <Compile Include="PhantomJS\PhantomJSDriverService.cs" />
@@ -112,6 +114,7 @@
     <Compile Include="Remote\JsonConverters\PlatformJsonConverter.cs" />
     <Compile Include="Remote\JsonConverters\ResponseValueJsonConverter.cs" />
     <Compile Include="Remote\LocalFileDetector.cs" />
+    <Compile Include="Remote\RemoteLog.cs" />
     <Compile Include="Remote\RemoteTouchScreen.cs" />
     <Compile Include="Safari\SafariDriverExtension.cs" />
     <Compile Include="Safari\SafariOptions.cs" />

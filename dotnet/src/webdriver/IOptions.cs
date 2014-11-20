@@ -45,5 +45,10 @@ namespace OpenQA.Selenium
         /// </summary>
         /// <returns>An object implementing the <see cref="ITimeouts"/> interface.</returns>
         ITimeouts Timeouts();
+
+        /// <summary>
+        /// Gets and object allowing the user to access the logs of the driver.
+        /// </summary>
+        ILog Logs { get; }
     }
 }

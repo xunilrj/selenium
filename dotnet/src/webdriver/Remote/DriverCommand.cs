@@ -402,5 +402,15 @@ namespace OpenQA.Selenium.Remote
         /// Represents the TouchFlick command.
         /// </summary>
         public static readonly string TouchFlick = "touchFlick";
+
+        /// <summary>
+        /// Represents the TouchFlick command.
+        /// </summary>
+        public static readonly string GetLogTypes = "getLogTypes";
+
+        /// <summary>
+        /// Represents the TouchFlick command.
+        /// </summary>
+        public static readonly string GetLog = "getLog";
     }
 }

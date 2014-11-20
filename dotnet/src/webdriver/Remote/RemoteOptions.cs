@@ -68,5 +68,13 @@ namespace OpenQA.Selenium.Remote
             return new RemoteTimeouts(this.driver);
         }
         #endregion
+
+        /// <summary>
+        /// Gets and object allowing the user to access the logs of the driver.
+        /// </summary>
+        public ILog Logs
+        {
+            get { return new RemoteLog(this.driver); }
+        }
     }
 }
